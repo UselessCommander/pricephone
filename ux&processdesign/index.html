@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="da">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="description" content="Køb en samsung telefon til ingen penge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="icon" type="image/png" href="img/logo-phone.png">
+            <link rel="stylesheet" href="css/reset.css">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+            <title>Pricephone</title>
+        </head>
+    <body>
+        <header class="main-header">
+            <nav class="topnav">
+                <div class="brand-container">
+                    <a href="index.html">
+                        <img src="img/logo-phone.png" alt="Logo telefon">
+                        <h1>Pricephone</h1>
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="om-os/omos.html">Om os</a>
+                    </li>
+                    <li>
+                        <a href="anmeldelser/anmeldelser.html">Anmeldelser</a>
+                    </li>
+                    <li>
+                        <a href="hjaelp/hjaelp.html">Hjælp</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-regular fa-user"></i></a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </header>
+    <main class="main-content">
+        <section class="search-container">
+            <div class="search-img">
+                <img src="img/background.png" alt="Billede af elektronik">
+
+                <div class="overlay">
+                    <div class="search-field">
+                            <input type="text" placeholder="By" id="searchBy">
+                    </div>
+                    <div class="search-field">
+                            <input type="text" placeholder="Telefon / model" id="searchPhone">
+                    </div>
+                    <div class="search-field">
+                            <input type="text" placeholder="Type skade" id="searchType">
+                    </div>
+                            <a href="pris/pris.html"><button class="search-button">Søg</button></a>
+                    </div>
+                </div>
+
+        </section>
+        <section class="info">
+            <h2>Fordele ved Reparation / Refurbished</h2>
+            <div class="info-container">
+                <div class="info-wrapper-1">
+                    <div class="info-img-1">
+                        <img src="img/recycle-symbol.png" alt="genbrugs logo">
+                    </div>
+                    <article class="info-box-1" >
+                        <ul>
+                            <li>Ved at købe en renoveret smartphone i stedet for en ny, kan man spare 261,3 kg. råmaterialer og 77,59 kg. CO2 over to år.</li>
+                            <li>Ved at forlænge en telefons levetid fra et til fire år, kan man reducere dens miljøpåvirkning med omkring 40%.</li>
+                            <li>Produktion og indledende transport står for 80-95% af en smartphones samlede CO2-udslip over to år.</li>
+                            <li>Smartphones ca. 125 megatons CO2 per år og tallet er vokset med 730% over de sidste 10 år</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="brand-footer">
+                PRICEPHONE
+            </div>
+            <div class="follow-us">
+                FØLG OS HER
+                <ul class="social-icons">
+                    <li><a href="www.instagram.com" ><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="www.facebook.com" ><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="www.twitter.com" ><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="www.tiktok.com" ><i class="fa-brands fa-tiktok"></i></a></li>
+                </ul>
+            </div>
+            
+            <div class="contact-info">
+                <i class="fa-solid fa-envelope"></i>
+                Kontakt os: <a href="mailto:pricexxx@hotmail.com">pricexxx@hotmail.com</a><br>
+                Tlf: +45 12345678
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const burgerMenu = document.querySelector('.burger-menu');
+        const navMenu = document.querySelector('nav.topnav ul');
+
+        burgerMenu.addEventListener('click', () => {
+        navMenu.classList.toggle('show-menu');
+        });
+    </script>
+    </body>
+</html>

@@ -1,0 +1,474 @@
+.main-header {
+    width: 100vw;
+    height: auto;
+    border-bottom: 2px solid #333;
+}
+
+/* Navbar styling */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.brand-container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.brand-container img {
+    width: 60px; /* Dette vil gøre billedet responsivt */
+    height: auto;
+    margin-right: 10px;
+}
+
+.topnav ul {
+    display: flex;
+    position: relative;
+    gap: 30px; 
+    padding-left: 0;
+    list-style-type: none;
+}
+
+
+.topnav ul li a {
+    padding: 10px 20px;
+    background:  linear-gradient(to top, white, #539D55 );
+    border-radius: 10px;
+}
+
+
+
+
+.HvemErVi{
+    position: absolute;
+    left: 850px;
+    top: 290px;
+    color: #4f5ccd;
+}
+
+.HvemerviMobil{
+    position: absolute;
+    color: #4f5ccd;
+    left: 180px;
+    top: 270px;
+    font-size: 23px;
+}
+
+.Understreg1{
+    position: absolute;
+    background-color: #5e6ad7;
+    width: 70px;
+    height: 2px;
+    left: 876px;
+    top: 371px;
+}
+
+.Understreg1Mobil{
+    position: absolute;
+    background-color: #5e6ad7;
+    width: 70px;
+    height: 2px;
+    left: 201px;
+    top: 350px;
+}
+
+.P1{
+    position: absolute;
+    left: 847px;
+    top: 378px;
+}
+
+.P1Mobil{
+    position: absolute;
+    left: 170px;
+    top: 367px;
+}
+
+.BilledVenstre{
+    position: absolute;
+    left: 286px;
+    top: 548px;
+}
+
+.Billed1Mobil{
+    position: absolute;
+    left: 205px;
+    top: 517px;
+}
+
+.Billed2Mobil{
+    position: absolute;
+    left: 236px;
+    top: 537px;
+}
+
+.BilledVenstre2{
+    position: absolute;
+    left: 316px;
+    top: 570px;
+}
+
+.BoksVenstre{
+    position: absolute;
+    background-color: #09630b;
+    width: 390px;
+    height: 190px;
+    left: 130px;
+    top: 665px;
+    border-radius: 23px 23px 23px 23px;
+}
+
+.Boks1Mobil{
+    position: absolute;
+    background-color: #09630b;
+    width: 390px;
+    height: 190px;
+    left: 40px;
+    top: 630px;
+    border-radius: 23px 23px 23px 23px;
+    z-index: -1;
+}
+
+.P2{
+    position: absolute;
+    left: 250px;
+    top: 608px;
+    color: #4f5ccd;
+}
+
+.P2Mobil{
+    position: absolute;
+    left: 167px;
+    top: 575px;
+    color: #4f5ccd;
+}
+
+.TextVenstre{
+    position: absolute;
+    left: 150px;
+    top: 678px;
+    width: 340px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Text1Mobil{
+    position: absolute;
+    left: 70px;
+    top: 645px;
+    width: 340px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.BilledMidt{
+    position: absolute;
+    left: 885px;
+    top: 575px;
+}
+
+.Billed3Mobil{
+    position: absolute;
+    left: 207px;
+    top: 969px;
+}
+
+.Boks2Mobil{
+    position: absolute;
+    background-color: #09630b;
+    width: 390px;
+    height: 190px;
+    left: 40px;
+    top: 1070px;
+    border-radius: 23px 23px 23px 23px;
+    z-index: -1;
+}
+
+.VoresBaggrund{
+    position: absolute;
+    left: 862px;
+    top: 608px;
+    color: #4f5ccd;
+}
+
+.VoresBaggrundMobil{
+    position: absolute;
+    left: 183px;
+    top: 1010px;
+    color: #4f5ccd;
+}
+
+.BoksMidt{
+    position: absolute;
+    background-color: #09630b;
+    width: 390px;
+    height: 190px;
+    left: 720px;
+    top: 665px;
+    border-radius: 23px 23px 23px 23px;
+}
+
+
+.TextBaggrund{
+    position: absolute;
+    left: 750px;
+    top: 672px;
+    width: 340px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.TextBagrundMobil{
+    position: absolute;
+    left: 65px;
+    top: 1080px;
+    width: 340px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.BilledHørje{
+    position: absolute;
+    left: 1484px;
+    top: 568px;
+}
+
+.BilledHørjeMobil{
+    position: absolute;
+    left: 205px;
+    top: 1400px;
+}
+
+.BoksHøjre{
+    position: absolute;
+    background-color: #09630b;
+    width: 390px;
+    height: 190px;
+    left: 1320px;
+    top: 665px;
+    border-radius: 23px 23px 23px 23px;
+    z-index: -1;
+}
+
+.BoksHøjreMobil{
+    position: absolute;
+    background-color: #09630b;
+    width: 390px;
+    height: 190px;
+    left: 40px;
+    top: 1540px;
+    border-radius: 23px 23px 23px 23px;
+    z-index: -1;
+}
+
+.Support{
+    position: absolute;
+    left: 1462px;
+    top: 608px;
+    color: #4f5ccd;
+}
+
+.SupportMobil{
+    position: absolute;
+    left: 175px;
+    top: 1460px;
+    color: #4f5ccd;
+}
+
+.TekstHørje{
+    position: absolute;
+    left: 1344px;
+    top: 675px;
+    width: 340px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.TekstHørjeMobil{
+    position: absolute;
+    left: 65px;
+    top: 1560px;
+    width: 340px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Understreg2{
+    position: absolute;
+    background-color: #5e6ad7;
+    width: 800px;
+    height: 2px;
+    left: 519px;
+    top: 900px;
+}
+
+.Understreg2Mobil{
+    position: absolute;
+    background-color: #5e6ad7;
+    width: 350px;
+    height: 2px;
+    left: 60px;
+    top: 1800px;
+}
+
+
+.Understreg3{
+    position: absolute;
+    background-color: #5e6ad7;
+    width: 300px;
+    height: 2px;
+    left: 773px;
+    top: 920px;
+}
+
+.Understreg3Mobil{
+    position: absolute;
+    background-color: #5e6ad7;
+    width: 200px;
+    height: 2px;
+    left: 133px;
+    top: 1830px;
+}
+
+.main-content {
+    min-height: 100vh;
+    
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 2px solid black;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.brand-footer {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.follow-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 100%;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.social-icons li {
+    margin: 0 5px;
+}
+
+.social-icons li a {
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+
+.contact-info {
+    font-size: 16px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    flex: 100%;    
+    
+}
+
+.contact-info i {
+    font-size: 20px;
+}
+
+/* taget herfra:https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background */
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+  }
+.fa-facebook {
+color: #3b5998;
+font-size: 20px;
+}
+
+.fa-tiktok {
+color: #111111;
+filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+font-size: 20px;
+}
+
+.fa-twitter {
+color:#1DA1F2;
+font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .topnav {
+        padding: 20px 40px;
+        max-width: 80%;
+        margin: 0 auto; 
+    }
+    
+
+    .brand-container img {
+        width: 80px;
+    }
+
+ 
+    .topnav ul {
+        display: flex;
+        position: relative;
+        gap: 30px; 
+        padding-left: 0;
+    }
+
+    
+    .topnav ul li a {
+        padding: 10px 20px;
+        background:  linear-gradient(to top, white, #539D55 );
+        border-radius: 10px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+
+    .brand-footer, .follow-us, .contact-info {
+        flex: 1;
+    }
+}

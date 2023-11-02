@@ -1,0 +1,242 @@
+/* Grundlæggende stilarter - Mobile First */
+
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kadwa:wght@400;700&family=Quattrocento:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500&display=swap');
+
+body {
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    width: 100vw;
+}
+
+
+.main-header {
+    width: 100vw;
+}
+
+/* Navbar styling */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #333;
+    background-color: #ffffff;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.brand-container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.brand-container img {
+    width: 60px; /* Dette vil gøre billedet responsivt */
+    height: auto;
+    margin-right: 10px;
+}
+
+.topnav ul {
+    list-style-type: none;
+    display: none; /* Skjul ved default */
+    gap: 15px;
+    position: relative;
+    z-index:990;
+}
+
+.topnav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+
+.login-container a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.fa-regular {
+    margin-left: 5px;
+    font-size: 1.2rem;
+}
+
+/* Burger Menu styling */
+.burger-menu {
+    display: flex;
+    font-size: 24px;
+    color: #333;
+    margin-right: 1rem;
+}
+
+/* Viser menuen, når den har .show-menu klassen */
+.topnav ul.show-menu {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    gap: 0;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.topnav ul.show-menu li {
+    text-align: center;
+}
+
+.topnav ul.show-menu li a {
+    display: block;
+    padding: 10px 20px;
+}
+
+
+.indhold {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center ;
+    font-family: 'roboto',sans-serif;
+    margin-left: 1rem;
+    margin-left: 1rem;
+
+}
+
+.kort {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.kort img {
+    width: 80%;
+    height: auto;
+    display: block;
+
+    
+}
+
+.liste {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.liste li {
+    border-bottom: 1px solid black;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.liste button {
+    cursor: pointer;
+}
+
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 2px solid black;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.brand-footer {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.follow-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 100%;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.social-icons li {
+    margin: 0 5px;
+}
+
+.social-icons li a {
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+
+.contact-info {
+    font-size: 16px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    flex: 100%;    
+    
+}
+
+.contact-info i {
+    font-size: 20px;
+}
+
+/* taget herfra:https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background */
+.fa-instagram {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+                /* Also define standard property for compatibility */
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+      }
+.fa-facebook {
+    color: #3b5998;
+    font-size: 20px;
+}
+
+.fa-tiktok {
+    color: #111111;
+    filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+    font-size: 20px;
+}
+
+.fa-twitter {
+    color:#1DA1F2;
+    font-size: 20px;
+}
+
+
+
+
+

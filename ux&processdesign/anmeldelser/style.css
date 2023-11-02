@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kadwa:wght@400;700&family=Quattrocento:wght@400;700&display=swap');
+   
+.main-header {
+    width: 100vw;
+    height: auto;
+    border-bottom: 2px solid #333;
+}
+
+/* Navbar styling */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.brand-container a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.brand-container img {
+    width: 60px; /* Dette vil gøre billedet responsivt */
+    height: auto;
+    margin-right: 10px;
+}
+
+.topnav ul {
+    display: flex;
+    position: relative;
+    gap: 30px; 
+    padding-left: 0;
+    list-style-type: none;
+}
+
+
+.topnav ul li a {
+    padding: 10px 20px;
+    background:  linear-gradient(to top, white, #539D55 );
+    border-radius: 10px;
+
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+}
+.custom-shape {
+    width: 350.51px;
+    height: 240.22px;
+    background: #D9D9D9;
+    border-radius: 41px;
+    padding-top: 20px;
+    padding-left: 50px;
+
+}
+.container{
+    display:flex;
+     align-items: center;
+     justify-content: space-between;
+      height: 100vh;
+   flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.Box1Mobil{
+
+    position: absolute;
+    top: 300px;
+    color: coral;
+
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 2px solid black;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.brand-footer {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.follow-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 100%;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.social-icons li {
+    margin: 0 5px;
+}
+
+.social-icons li a {
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+
+.contact-info {
+    font-size: 16px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    flex: 100%;    
+    
+}
+
+.contact-info i {
+    font-size: 20px;
+}
+
+/* taget herfra:https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background */
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+  }
+.fa-facebook {
+color: #3b5998;
+font-size: 20px;
+}
+
+.fa-tiktok {
+color: #111111;
+filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
+font-size: 20px;
+}
+
+.fa-twitter {
+color:#1DA1F2;
+font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer-container {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+
+    .brand-footer, .follow-us, .contact-info {
+        flex: 1;
+    }
+}
